@@ -14,7 +14,7 @@ while not (battery >= 70 and wind <= 20 and signal == "strong"):
     else:
         print("⚠️ Conditions not ideal. Use caution.")
     
-    # Ask again
+    #Ask again
     print("\n🔁 Re-enter updated conditions:")
     battery = int(input("Enter battery %: "))
     wind = int(input("Enter wind speed (km/h): "))
